@@ -40,4 +40,7 @@ module ZMQ
 
   class Message < Msg
   end
+
+  class ZMQQueue < org.jeromq::ZMQQueue
+  end
 end

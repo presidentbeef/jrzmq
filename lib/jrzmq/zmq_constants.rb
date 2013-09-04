@@ -7,6 +7,8 @@ module ZMQ
   java_import 'zmq.Msg'
 
   SNDMORE = org.jeromq.ZMQ::SNDMORE
+  SNDTIMEO = ZMQ::ZMQ_SNDTIMEO
+  RCVTIMEO = ZMQ::ZMQ_RCVTIMEO
 
   DONTWAIT = org.jeromq.ZMQ::DONTWAIT
 
